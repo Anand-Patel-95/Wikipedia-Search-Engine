@@ -3,7 +3,7 @@ Designed a custom PageRank algorithm in PySpark to find the most important Wikip
 
 
 # Files of Interest
-- [iPython Notebook of Wikipedia PageRank](): Walks through the development of this PageRank algorithm. This code is customized to handle unbalanced edge weights and decimal edge weights. This PageRank implementation is packaged and used in other projects such as creating a flight delay network to find the most delay heavy airports in the United States: see [Notebook here](https://github.com/Anand-Patel-95/Predicting-Flight-Delays-for-Airlines/blob/main/EDA_anand_PageRank_starter.ipynb).
+- [iPython Notebook of Wikipedia PageRank](Wikipedia_PageRank_Project.ipynb): Walks through the development of this PageRank algorithm. This code is customized to handle unbalanced edge weights and decimal edge weights. This PageRank implementation is packaged and used in other projects such as creating a flight delay network to find the most delay heavy airports in the United States: see [Notebook here](https://github.com/Anand-Patel-95/Predicting-Flight-Delays-for-Airlines/blob/main/EDA_anand_PageRank_starter.ipynb).
   - Note that the algorithm was run on a 2 GB subset, but is designed to run at scale in Spark on the entire 500GB dataset and will scale linearly in time with the dataset size.
 
 # About the Data
